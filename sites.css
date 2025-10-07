@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px; 
+    width: 90%;
+}
+.con{
+    border-radius: 2%;
+            padding: 20px;
+            box-shadow: 0 2px 2px #0000007f;
+            background-size: cover;
+            color: #000000;
+            background-image: linear-gradient(45deg, #0b91e56c, #ffffff00);
+            transition: transform 0.3s ease-in-out;
+          display: flex;
+          justify-content: space-evenly;
+
+}
+img{
+    height: 100px;
+    width: 150px;
+}
+
+
+#button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+#button:hover {
+    background-color: #054508;
+}
+header {    margin-top: 0px;
+            text-align: center;
+            color: #0e9cd9;
+            padding: 20px;
+            background-image: url('https://th.bing.com/th/id/R.f75b89c505dd0bdfc698744722222918?rik=1oPB4rYKxiRwVA&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2016%2f06%2f10%2f4k-hd-wallpapers_065228558_309.jpg&ehk=GbNNwMhpX%2b7cKij2WgbB0hyr%2fbK%2f4i7XCgjx2ZoZf74%3d&risl=&pid=ImgRaw&r=0');
+            background-size: cover;
+            border-radius: 2px;
+            
+        }
+header nav a {
+            text-decoration: none;
+            color: #fff203;
+            font-family:'Times New Roman', Times, serif ;
+            font-weight: bolder;
+            font-size: small;
+        }
+        header nav ul {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            justify-content: right;
+            margin-right: 20px;
+            gap: 3px;
+        }
+
+        header nav ul li {
+            margin-right: 1em;
+        }
+        #category1{background-image: url(https://www.adventuretravelcoach.com/wp-content/uploads/2020/06/68AFCE60-6D7A-40C0-BD33-497926A30147.jpeg);background-size: cover;}
+        #category2{background-image: url(https://wallpapercave.com/wp/wp9069748.jpg);background-size: cover;}
+        #category3{background-image: url(https://wallpapercave.com/wp/wp7231656.jpg);background-size: cover;}
+        #category4{background-image: url(https://th.bing.com/th/id/OIP.ZEBR8XJ6evp5nTIc46Zt0gHaEm?rs=1&pid=ImgDetMain);background-size: cover;}
+        #category5{background-image: url(https://wallpaperaccess.com/full/336718.jpg);background-size: cover;}
+        #category6{background-image: url(https://cdn.cdnparenting.com/articles/2019/01/13143643/1104054404-H.jpg);background-size: cover;}
+        #contact~p{
+            color:rgb(136, 182, 213);
+        }

@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+h1{
+font-style: italic;
+}
+div{
+    text-align: center;
+}
+
+img{
+    height:200px;
+    width:200px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bn{
+    text-align: center;
+    color: red;
+    
+}
+img:hover{
+    transform: scale(1.05);
+transition: transform 0.5 ease-in-out;
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nal{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container4{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container5{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container6 , .container19 , .container20 ,.container21 ,.container22  , .container26 ,.container27{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container7 , .container17, .container18, .container23 ,.container24 ,.container25 , .container28{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container8, .container15 , .container16 , .container29{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container9 , .container12 , .container11{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container10 , .container13 , .container14{
+    display: flex;
+    justify-content: space-evenly;
+}
+#button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+#button:hover {
+    background-color: #054508;
+}

@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bookingdetail.css">
+    </head>
+    <body>
+        <div class="center-content">
+            <h1>Epic Destiny Tour</h1>
+        </div>
+        <div class="left-content">
+            <img src="Screenshot 2024-02-10 205338.png.jpg" alt="Logo">
+        </div>
+    <div class="right-content">
+        <a href="/">Home</a>
+        <a href="login.html">Login</a>
+        <a href="Andhra Pradesh.html">Destinations</a>
+        <a href="payment.html">Payment</a>
+        
+    </div>
+        <div class="container">
+        <form action="payment.html" method="post">
+            <h2>Booking Details</h2>
+            <label for="name"><b>Name:</b></label>
+            <input class="inputs" type="text" id="name" name="name" placeholder="Enter your name" required>
+            
+        
+            <label for="email"><b>Email:</b></label>
+            <input class="inputs" type="email" id="email" name="email" placeholder="abc@gmail.com" required>
+        
+            <label for="phone"><b>Phone:</b></label>
+            <input class="inputs" type="number" id="phone" name="phone" placeholder="1234567890" required>
+
+            <label for="tour"><b>Select Tour</b></label>
+            <select id="tour" name="tour" required>
+                <option value=""><b>Select a Tour</b></option>
+                <option value="Tour A">Andhra Pradesh</option>
+                <option value="Tour B">Arunachal Pradesh</option>
+                <option value="Tour C">Assam</option>
+                <option value="Tour D">Bihar</option>
+                <option value="Tour E">Chattisgarh</option>
+                <option value="Tour F">Goa</option>
+                <option value="Tour G">Gujrat</option>
+                <option value="Tour H">Haryana</option>
+                <option value="Tour I">Himachal pradesh</option>
+                <option value="Tour J">Jharkhand</option>
+                <option value="Tour K">karnataka</option>
+                <option value="Tour L">Kerla</option>
+                <option value="Tour M">Madhya pradesh</option>
+                <option value="Tour N">Maharashtra</option>
+                <option value="Tour O">Manipur</option>
+                <option value="Tour P">Mehghalaya</option>
+                <option value="Tour Q">Mizoram</option>
+                <option value="Tour R">Nalagad</option>
+                <option value="Tour S">Odisha</option>
+                <option value="Tour T">Punjab</option>
+                <option value="Tour U">Rajasthan</option>
+                <option value="Tour V">Sikkim</option>
+                <option value="Tour w">Tamil Nadu</option>
+                <option value="Tour X">Telangana</option>
+                <option value="Tour Y">Tripura</option>                
+                <option value="Tour Z">Uttar Pradesh</option>
+                <option value="Tour a">Uttarakhand</option>
+                <option value="Tour b">West bengal</option>            
+
+
+            </select><br>
+        
+            <label for="from"><b>From:</b></label>
+            <input class="inputs" type="name" id="from" name="from"  required>
+
+            <label for="place"><b>Places want to visit there:</b></label>
+            <textarea class="inputs" id="place" name="place" rows="4"></textarea>
+
+            <label for="date"><b>Date of Booking:</b></label>
+            <input class="inputs" type="date" id="date" name="date" required>
+        
+            <label for="Guests"><b>Number of Guests:</b></label>
+            <input class="inputs" type="number" id="Guests" name="Guests" required>
+
+            
+            <label for="requests"><b>Special Requests:</b></label>
+            <textarea class="inputs" id="requests" name="requests" rows="4"></textarea>
+
+            
+        
+            <input class="submit" type="submit" value="Book Now">
+        </form>
+        </div>
+    </body>
+
+</html>

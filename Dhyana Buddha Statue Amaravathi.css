@@ -1,0 +1,96 @@
+img{
+    height:300px;
+    weight:300px;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    color:rgb(255, 0, 0);
+}
+.image{
+    display:flex;
+    justify-content:space-evenly;
+}
+.A,{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 2px;
+    border-color: black;
+    padding: 0;
+}
+.selapass, .gw , .maha , .mani, .naga{
+    width:22% ;
+}
+.NNP , .megh ,.odis , .punj , .raja , .sikk , .tami ,.tela{
+    width:22%;
+}
+.ti , .mizo , .utta , .up , .west , .hima{
+    width:22%;
+}
+.na{
+    
+    width:22%;
+}
+.nal{
+    display:flex;
+    justify-content:space-evenly;
+}
+.nal img{
+    width:250px;
+    height:250px;
+}
+.tomb{
+    width:22%;
+}
+.np{
+    width:22%;
+}
+.bw{
+    width:22%;
+}
+.rai{
+    width:22%;
+}
+.jag{
+    width:22%;
+}
+.dh{
+    width:22%;
+}
+.cal{
+    width:22%;
+}
+.tha{
+    width:22%;
+}
+.chr{
+    width:22%;
+}
+.anj{
+    width:22%;
+}
+.gir{
+    width:22%;
+}
+.som,.betla{
+    width:22%;
+    
+}
+.statue{
+    width:30%;
+}
+.vad{
+    width:22%;
+}
+.pani, .po{
+    width:22%;
+}
+.sul, .ku , .va,.pe , .del{
+    width:22%;
+}
+.mor,.my,.ha,.da , .chd{
+    width:22%;
+}
+.man,.dash,.hf,.co ,.jks{
+    width:22%;
+}

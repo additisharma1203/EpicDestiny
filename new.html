@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tour Destination</title>
+    <style>
+        /* Global styles */
+        body {
+            font-family:'Times New Roman', Times, serif;
+            margin: 0;
+            background-color: rgba(0, 0, 0, 0.721);
+        }
+        header {
+            text-align: center;
+            color: #0e9cd9;
+            padding: 20px;
+            background-image: url('https://th.bing.com/th/id/R.f75b89c505dd0bdfc698744722222918?rik=1oPB4rYKxiRwVA&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2016%2f06%2f10%2f4k-hd-wallpapers_065228558_309.jpg&ehk=GbNNwMhpX%2b7cKij2WgbB0hyr%2fbK%2f4i7XCgjx2ZoZf74%3d&risl=&pid=ImgRaw&r=0');
+            background-size: cover;
+            border-radius: 2px;
+            
+        }
+        main {
+            /* background-image: url(https://4kwallpapers.com/images/wallpapers/love-heart-tree-1920x1080-14793.jpg); */
+
+            /*background-size: cover;*/
+            background-color: rgb(252, 252, 252);
+            padding: 20px;
+            margin: 0px;
+            background: linear-gradient(to bottom, #304077, #a07048);
+            
+        }
+        #img{
+            margin: 90px 0px 10px 0px;
+            height: 600px;
+            background-image: url('https://wallpaperaccess.com/full/31190.jpg');
+            background-size: cover;
+            
+            border-radius: 2px;
+            /* padding-top: 300px;
+            padding-right: 300px; */
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            
+            /* overflow: hidden; */
+         }
+         #img h2{
+             font-weight: bold;
+             text-shadow: 2px 2px 9px rgb(0, 0, 0); 
+             font-size: 90px;
+             color: #ffffff00;
+             -webkit-text-stroke: 0.3vw #ffffff00;;
+             text-transform: uppercase;
+             position: relative;
+         }
+         h2::before{
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            /* width: 0; */
+            /* height: 100%; */
+            color: #ebeceb;
+            -webkit-text-stroke: 0vw #ffffff00;
+            border-right: 2px solid #ffffff;
+            overflow: hidden;
+            animation: animate 6s ;
+         }
+         @keyframes animate{
+            0%,10%,100%
+            {
+                width: 0;
+            }
+            70%,90%
+            {
+                width: 100%;
+            }
+         }
+        /* #img::after{
+            content: "nothing";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('mylivewallpapers-com-Waterfall-4K.mp4') no-repeat center center fixed;
+  background-size: cover;
+  z-index: -1;
+  animation: playVideo 50s infinite;
+         }
+         @keyframes playVideo {
+  0% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+} */
+        footer {
+            background-color: #56606784;
+            text-align: center;
+            padding: 20px;
+            position:bottom;
+            bottom: 0;
+            justify-content: baseline;
+            /* background-image: url('https://4kwallpapers.com/images/walls/thumbs_2t/2732.jpg'); */
+            /* background-size: cover; */
+            height: 20px;
+        }
+        
+        /* Category grid */
+        #cat {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        .category {
+            border-radius: 2%;
+            padding: 20px;
+            box-shadow: 0 2px 2px #0000007f;
+            background-size: cover;
+            color: #ffffff;
+            background-image: linear-gradient(45deg, #0000006c, #ffffff7b);
+            transition: transform 0.3s ease-in-out;
+            height: 170px;
+        }
+        .category:hover {
+            transform: scale(1.05);
+        }
+        
+        .categories { 
+            margin-top: 50px;
+           
+            color: #fcfcfc;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+        header nav a {
+            text-decoration: none;
+            color: #fff203;
+            font-family:'Times New Roman', Times, serif ;
+            font-weight: bolder;
+            font-size: small;
+        }
+        header nav ul {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            justify-content: right;
+            margin-right: 20px;
+            gap: 3px;
+        }
+
+        header nav ul li {
+            margin-right: 1em;
+        }
+        #category1{background-image: url(https://www.adventuretravelcoach.com/wp-content/uploads/2020/06/68AFCE60-6D7A-40C0-BD33-497926A30147.jpeg);background-size: cover;}
+        #category2{background-image: url(https://wallpapercave.com/wp/wp9069748.jpg);background-size: cover;}
+        #category3{background-image: url(https://wallpapercave.com/wp/wp7231656.jpg);background-size: cover;}
+        #category4{background-image: url(https://th.bing.com/th/id/OIP.ZEBR8XJ6evp5nTIc46Zt0gHaEm?rs=1&pid=ImgDetMain);background-size: cover;}
+        #category5{background-image: url(https://wallpaperaccess.com/full/336718.jpg);background-size: cover;}
+        #category6{background-image: url(https://cdn.cdnparenting.com/articles/2019/01/13143643/1104054404-H.jpg);background-size: cover;}
+        #contact~p{
+            color:rgb(136, 182, 213);
+        }
+        .top-values-section {
+  max-width: 800px;
+  margin: 50px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+.value-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.value-box {
+  width: 30%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}.icon {
+  text-align: center;
+}
+
+.icon img {
+  width: 50px;
+  height: 50px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        
+        <h1>EPIC DESTINY TOURS</h1>
+        
+        <nav>
+          <ul>
+            <li><a href="login.html">login</a></li>
+            <li><a href="bookingdetail.html">Booking</a></li>
+            <li><a href="payment.html">payment</a></li>
+            <li><a href="Andhra Pradesh.html">Destinations</a></li>
+            <li><div class="search-container">
+                <!-- <form action="/search" method="GET">
+                <input type="text" class="search-box" name="q" placeholder="Search...">
+                <button type="submit" class="search-btn">Search</button>
+                </form> -->
+                </div>
+            </li>
+          </ul>
+      </nav>
+    </header>
+    <main>
+                                                               <div id="img"><h2 data-text="Welcome" >Welcome</h2></div>
+        <p class="categories">These are various Categories:</p>
+        <div id="cat">
+            <div class="category" id="category1">
+                <h1>Adventures</h1>
+            </div>
+            <div class="category" id="category2">
+                <h1>Weekend</h1>
+            </div>
+            <div class="category" id="category3">
+                <h1>Historical & Cultural Tours</h1>
+            </div>
+            <div class="category" id="category4">
+                <h1>Wildlife Tourism</h1>
+            </div>
+            <div class="category" id="category5">
+                <h1>Rural Tourism</h1>
+            </div>
+            <div class="category" id="category6">
+                <h1>Religious Tourism</h1>
+            </div>
+            <div class="category" id="category7">
+                <h1>More:</h1>
+            </div>
+        </div>
+        
+    </main>
+    <div class="top-values-section">
+        <h2>Top Values for You</h2>
+        <p>Try a variety of benefits when using our services</p>
+        <div class="value-boxes">
+          <div class="value-box">
+            <div class="icon"><img src="bookings-icon-18.jpg" alt="Fast Booking Icon"></div>
+            <h3>FAST BOOKING</h3>
+            <p>We offer fast booking, fantastic products, competitive pricing & amazing experience.</p>
+          </div>
+          <div class="value-box">
+            <div class="icon"><img src="deal-icon.png" alt="Exciting Deals Icon"></div>
+            <h3>EXCITING DEALS</h3>
+            <p>Enjoy exciting deals on flights, hotels, buses, car rental, tour packages and more.</p>
+          </div>
+          <div class="value-box">
+            <div class="icon"><img src="24into7.png" alt="24/7 Support Icon"></div>
+            <h3>24/7 SUPPORT</h3>
+            <p>Get assistance 24/7 on any kind of travel related query. We are happy to assist you.</p>
+          </div>
+        </div>
+      </div>
+    <footer>
+        © 2024 Epic Destiny Tour. All rights reserved.
+    </footer>
+</body>
+</html>

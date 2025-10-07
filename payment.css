@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    background-image: url('https://4kwallpapers.com/images/wallpapers/love-heart-tree-1920x1080-14793.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.inputs {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.inputs:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+label {
+    font-weight: bold;
+}
+
+.submit {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #45a049;
+}
+
+.container {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+}
+.right-content {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.left-content {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.center-content {
+    position:absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
